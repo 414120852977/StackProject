@@ -40,7 +40,7 @@ public class LinkedList<T extends  Node> {
             System.out.println("list is empty");
         } else {
             t = start;
-            for (int i = 1; i <= size; i++) {
+            for (int i = 0; i <= size; i++) {
                 System.out.print(t.getData() + "  ->  ");
                 t = t.getNext();
             }
