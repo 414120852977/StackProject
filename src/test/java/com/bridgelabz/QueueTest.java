@@ -14,4 +14,16 @@ public class QueueTest {
         Assert.assertEquals(3,queue.getSize());
     }
 
+    @Test
+    public void dequeuefromBeginingonQueue() {
+        Queue queue = new Queue();
+        queue.enqueue(56);
+        queue.enqueue(30);
+        queue.enqueue(70);
+        queue.dequeue();
+        queue.dequeue();
+        queue.dequeue();
+        queue.printqueue();
+        Assert.assertEquals(0,queue.getSize());
+    }
 }

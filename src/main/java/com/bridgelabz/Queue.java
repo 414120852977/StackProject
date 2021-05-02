@@ -20,4 +20,8 @@ public class Queue {
     public void printqueue() {
         LinkedList.viewlist();
     }
+
+    public void dequeue() {
+        LinkedList.deletefirst();
+    }
 }
