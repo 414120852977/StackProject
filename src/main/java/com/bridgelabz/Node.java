@@ -1,8 +1,8 @@
 package com.bridgelabz;
 
-public class Node {
+public class Node<T> {
     int data;
-    Node next;
+    Node<T> next;
 
     public Node() {
         this.data = 0;

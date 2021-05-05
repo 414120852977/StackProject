@@ -1,8 +1,8 @@
 package com.bridgelabz;
 
-public class LinkedList<T extends  Node> {
+public class LinkedList<K, V> {
     int size;
-    Node  start;
+    Node <K> start;
 
     public <T> LinkedList() {
         this.size = 0;
